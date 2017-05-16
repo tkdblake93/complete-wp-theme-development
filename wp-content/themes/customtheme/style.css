@@ -1,0 +1,77 @@
+/*
+	Theme Name: Custom Theme
+	Theme URI: https://wordpress.org/
+	Author: tkdblake93
+	Author URI: https://wordpress.org/
+	Description: Custom Theme Tutorial
+	Version: 1.0
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Tags: black
+	Text Domain: customtheme
+*/
+
+body {
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Custom background and text color for Bootstrap Jumbotron */
+.gradient-bg {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2baae5+26,207cca+100,7db9e8+100,207cca+101 */
+    background: #1e5799; /* Old browsers */
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#1e5799), color-stop(0.26, #2baae5), color-stop(1, #207cca), color-stop(1, #7db9e8), color-stop(1.01, #207cca));
+    background: -webkit-linear-gradient(left, #1e5799 0%, #2baae5 26%, #207cca 100%, #7db9e8 100%, #207cca 101%);
+    background: -moz-linear-gradient(left, #1e5799 0%, #2baae5 26%, #207cca 100%, #7db9e8 100%, #207cca 101%);
+    background: -o-linear-gradient(left, #1e5799 0%, #2baae5 26%, #207cca 100%, #7db9e8 100%, #207cca 101%);
+    background: linear-gradient(left, #1e5799 0%, #2baae5 26%, #207cca 100%, #7db9e8 100%, #207cca 101%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 ); /* IE6-9 */
+    color: white;
+}
+
+.main-custom-nav {
+	border-radius: 0;
+}
+
+.main-custom-nav a {
+	color: white;
+}
+
+.main-custom-nav .navbar-nav > li > a:hover,
+.main-custom-nav .navbar-nav > li > a:focus {
+	background-color: transparent;
+	color: #f3f3f3;
+}
+
+/* Navigation styles */
+.navbar-brand {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.margin-neg-20 {
+	margin-top: -20px;
+}
+
+.main-custom-nav .icon-bar {
+	color: white;
+	background-color: white;
+}
+
+/* END Navigation styles */
+
+/* Footer styles */
+#site-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #f5f5f5;
+	border-top: 1px solid lightgray;
+	padding-top: 16px;
+}
+
+/* END Footer styles */
